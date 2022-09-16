@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ScriptEngine">
+      <UniqueIdentifier>{f02caac9-1115-4cf6-b828-e7491dbc9492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptEngine\dukglue">
+      <UniqueIdentifier>{397e122f-69a8-488d-8bfb-91fa46153460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptEngine\duktape">
+      <UniqueIdentifier>{fad608ad-c6ff-4e04-b7ca-fa63852195f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsoncpp">
+      <UniqueIdentifier>{e39f22aa-b460-46c4-8ce3-925e51c8f603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inputbox">
+      <UniqueIdentifier>{24837547-c68f-4e10-a388-c7abb5d48960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Convert">
+      <UniqueIdentifier>{e53579f8-c71f-49ba-bcbf-a29cf705d02a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dukglue\detail_class_proto.h">
+      <Filter>ScriptEngine\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dukglue\detail_constructor.h">
+      <Filter>ScriptEngine\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dukglue\detail_function.h">
+      <Filter>ScriptEngine\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dukglue\detail_method.h">
+      <Filter>ScriptEngine\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dukglue\detail_primitive_types.h">
+      <Filter>ScriptEngine\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dukglue\detail_refs.h">
+      <Filter>ScriptEngine\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dukglue\detail_stack.h">
+      <Filter>ScriptEngine\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dukglue\detail_traits.h">
+      <Filter>ScriptEngine\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dukglue\detail_typeinfo.h">
+      <Filter>ScriptEngine\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dukglue\detail_types.h">
+      <Filter>ScriptEngine\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dukglue\dukexception.h">
+      <Filter>ScriptEngine\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dukglue\dukglue.h">
+      <Filter>ScriptEngine\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dukglue\dukvalue.h">
+      <Filter>ScriptEngine\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dukglue\public_util.h">
+      <Filter>ScriptEngine\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dukglue\register_class.h">
+      <Filter>ScriptEngine\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dukglue\register_function.h">
+      <Filter>ScriptEngine\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dukglue\register_property.h">
+      <Filter>ScriptEngine\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\duktape2.1.1\duk_config.h">
+      <Filter>ScriptEngine\duktape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\duktape2.1.1\duktape.h">
+      <Filter>ScriptEngine\duktape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\src\json_tool.h">
+      <Filter>jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\src\version.h">
+      <Filter>jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBoxW.h">
+      <Filter>inputbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Convert\Convertor.h">
+      <Filter>Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Convert\iconv.h">
+      <Filter>Convert</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dukglue\detail_function.cpp">
+      <Filter>ScriptEngine\dukglue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\duktape2.1.1\duktape.c">
+      <Filter>ScriptEngine\duktape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jsoncpp\src\json_reader.cpp">
+      <Filter>jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jsoncpp\src\json_value.cpp">
+      <Filter>jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jsoncpp\src\json_writer.cpp">
+      <Filter>jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="InputBoxW.cpp">
+      <Filter>inputbox</Filter>
+    </ClCompile>
+    <ClCompile Include="jexec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Convert\Convertor.cpp">
+      <Filter>Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Convert\win_iconv.cpp">
+      <Filter>Convert</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\duktape2.1.1\duk_source_meta.json">
+      <Filter>ScriptEngine\duktape</Filter>
+    </None>
+    <None Include="..\jsoncpp\src\json_valueiterator.inl">
+      <Filter>jsoncpp</Filter>
+    </None>
+  </ItemGroup>
+</Project>

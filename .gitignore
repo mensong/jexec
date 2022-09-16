@@ -1,0 +1,12 @@
+/.vs
+/Win32/Debug/surl.exe
+/Win32/Debug/*.ilk
+/surl.VC.db
+/surl/Win32
+/surl/surl.vcxproj.user
+/Win32/Debug/surl.pdb
+/jexec.VC.db
+/x64
+/Win32
+/jexec/Win32
+/jexec/x64
